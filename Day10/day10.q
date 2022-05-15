@@ -5,9 +5,9 @@ LookAndSay:{
     raze {string[x],y}'[last g;first g]
  };
 
-ans1:LookAndSay/[40;"1113122113"];   / part1: 360154
+ans1:count LookAndSay/[40;"1113122113"];   / part1: 360154
 
 
 
 
-ans2:LookAndSay/[50;"1113122113"] / part2: 5103798
+ans2:count LookAndSay/[50;"1113122113"] / part2: 5103798
